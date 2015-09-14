@@ -1,6 +1,7 @@
 {
   "name": "gulp-geojson-slice",
   "version": "1.0.0",
+  "repository": "https://github.com/KamataRyo/gulp-geojson-slice",
   "description": "slice geojson files into vector tiles.",
   "main": "js/index.js",
   "scripts": {
