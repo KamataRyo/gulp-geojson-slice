@@ -2,10 +2,22 @@
   "name": "gulp-geojson-slice",
   "version": "1.0.0",
   "description": "slice geojson files into vector tiles.",
-  "main": "index.js",
+  "main": "js/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/ --compilers coffee:coffee-script/register"
   },
+  "engines": "0.12.7",
   "author": "kamataryo",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-mocha": "^2.1.3",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.0.1",
+    "run-sequence": "^1.1.2",
+    "should": "^7.1.0",
+    "sinon": "^1.16.1"
+  }
 }
