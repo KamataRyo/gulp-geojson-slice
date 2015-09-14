@@ -1,0 +1,11 @@
+{
+  "name": "gulp-geojson-slice",
+  "version": "1.0.0",
+  "description": "slice geojson files into vector tiles.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kamataryo",
+  "license": "ISC"
+}
