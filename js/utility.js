@@ -1,3 +1,3 @@
 exports.hello = function() {
-  return 'hellop';
+  return 'hello';
 };

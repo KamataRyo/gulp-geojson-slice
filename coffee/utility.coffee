@@ -1,2 +1,2 @@
 exports.hello = ->
-    return 'hellop'
+    return 'hello'
